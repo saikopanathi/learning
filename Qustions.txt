@@ -1,0 +1,5 @@
+*given in array find the max value 
+*given in array find the min value 
+*given in array find the average 
+*given in array find the search for element
+*fibnacci series
