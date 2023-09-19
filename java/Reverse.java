@@ -5,18 +5,15 @@ public class Reverse {
         Scanner scan= new Scanner(System.in);
         System.out.print("Enter a number: ");
         int number = scan.nextInt();
-    }
-    public static int reverse(int n) {
-        int reversenumber = 0;
-        while (n!= 0) {
-            int digit = n%10;
-            reversenumber = reversenumber * 10 + digit;
-            n= n/10;
+        int sum =0;
+        while (number>0)
+        {
+            int digit = number % 10;
+            sum = sum *10 + digit ;
+            number = number / 10;
         }
-        return reversedNumber;
+        System.out.println(sum);
     }
 }
-
-
-
+       
 

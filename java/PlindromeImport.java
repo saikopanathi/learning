@@ -1,20 +1,18 @@
 import java.util.Scanner;
-{
-    public class PalindromeImport {
+    public class PlindromeImport {
         public static void main(String [] args)
         {
             Scanner scan = new Scanner (System.in);
             System.out.println("enter a number");
-            int num = scan.nextInt();
+            int number = scan.nextInt();
             scan.close();
-        }
-        int a = num;
+        int a = number;
         int sum = 0;
-        while (num > 0)
+        while (number > 0)
         {
-            int digit = num % 10;
-            reversenum = reversenum * 10 + digit;
-            num = num / 10;
+            int digit = number % 10;
+            sum= sum * 10 + digit;
+            number = number / 10;
 
         }
         if ( a==sum)
